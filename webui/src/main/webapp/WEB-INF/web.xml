@@ -1,6 +1,6 @@
 <web-app>
 
-    <listener>
+    <!--<listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
@@ -15,14 +15,14 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/springMVC.xml</param-value>
-        </init-param>
+        </init-param>DelegatingWebMvcConfiguration
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>app</servlet-name>
         <url-pattern>/</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
     <!-- 默认首页定义 -->
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
